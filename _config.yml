@@ -1,3 +1,13 @@
-theme: jekyll-theme-minimal
-title: Nelsen Young homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Nelsen Young
+description: Software Engineer • AI/ML • Full Stack
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+header_pages:
+  - index.md
+author:
+  name: Nelsen Young
+  email: nelsenyoung03@gmail.com
+github_username: nelsenyoung
+linkedin: https://www.linkedin.com/in/nelsenyoung

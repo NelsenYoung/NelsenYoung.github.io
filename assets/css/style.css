@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  color: #111;
+  background: #fff;
+}
+.container { max-width: 900px; margin: auto; padding: 2rem; }
+.header { padding: 1rem 2rem; border-bottom: 1px solid #eee; }
+.hero { padding: 6rem 2rem 4rem; text-align: center; }
+.hero-title span {
+  background: linear-gradient(90deg, #2d2dff, #0077ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; }
+.project-card { border: 1px solid #eee; padding: 1.5rem; border-radius: 8px; background: #fafafa; }
+.btn { display: inline-block; padding: .4rem .9rem; background: #0078ff; color: white; text-decoration: none; border-radius: 5px; margin-top: .8rem; }
+.footer { border-top: 1px solid #eee; padding: 2rem; text-align: center; color: #555; }
+.footer-links a { margin: 0 10px; color: #0078ff; text-decoration: none; }
