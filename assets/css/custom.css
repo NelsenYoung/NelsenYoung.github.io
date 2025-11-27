@@ -1,0 +1,29 @@
+/* Remove default MM button styling */
+.floating-card a.btn {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  cursor: default !important;
+}
+
+/* Position the card */
+.floating-card {
+  position: absolute;
+  right: 40px;         /* adjust for placement */
+  bottom: -60px;       /* pushes it downward to “overlap” the splash header */
+  z-index: 20;
+}
+
+/* Card styling */
+.floating-card a.btn::before {
+  content: "";
+  display: block;
+  width: 220px;        /* adjust size */
+  height: 220px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+  background-image: url("/assets/images/your-card.png"); /* <— your image */
+  background-size: cover;
+  background-position: center;
+}
