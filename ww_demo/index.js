@@ -42,6 +42,7 @@ function handleImageSelect(e){
 function call_model_API(imageData, img_preview, ratio){
     const url = "https://straightforwardly-sparkless-darrel.ngrok-free.dev/upload/";
     const formData = new FormData();
+    console.log("this change has been noticed");
     formData.append("file", imageData, imageData.name);
 
     const fetchOptions = {
