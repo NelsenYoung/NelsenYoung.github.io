@@ -40,7 +40,7 @@ function handleImageSelect(e){
 }
 
 function call_model_API(imageData, img_preview, ratio){
-    const url = "http://10.10.22.113:8000/upload/";
+    const url = "https://straightforwardly-sparkless-darrel.ngrok-free.dev/upload/";
     const formData = new FormData();
     formData.append("file", imageData, imageData.name);
 
